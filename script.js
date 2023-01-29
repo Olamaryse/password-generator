@@ -109,12 +109,12 @@ var specialCharacters = [
  
 
   // Function for getting a random element from an array
-
-    function getRandom(arr) {
-        let randomIndex = Math.floor(Math.random() * arr.length);
-        return arr[randomIndex];
+      function getRandom(arrays) {
+        let randomArray = arrays[Math.floor(Math.random() * arrays.length)];
+        let randomIndex = Math.floor(Math.random() * randomArray.length);
+        return randomArray[randomIndex];
       }
-   
+
 
   
   // Function to generate password with user input
