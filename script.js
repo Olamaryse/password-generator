@@ -129,7 +129,7 @@ var specialCharacters = [
   
   // Write password to the #password input
   function writePassword() {
-    var password = generatePassword(10);
+    var password = generatePassword(15);
     var passwordText = document.querySelector('#password');
   
     passwordText.value = password;
